@@ -1,5 +1,5 @@
-import { Answer } from '../forum/enterprise/entities/answer'
+import { Answer } from "../../enterprise/entities/answer";
 
-export interface AnswerRepository {
-  create(answer: Answer): Promise<void>
+export interface AnswersRepository {
+  create(answer: Answer): Promise<void>;
 }
