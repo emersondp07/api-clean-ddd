@@ -35,6 +35,7 @@ export type Either<L, R> = Failed<L, R> | Success<L, R>;
 export const failed = <L, R>(value: L): Either<L, R> => {
   return new Failed(value);
 };
+
 export const success = <L, R>(value: R): Either<L, R> => {
   return new Success(value);
 };
