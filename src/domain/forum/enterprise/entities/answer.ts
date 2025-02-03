@@ -1,6 +1,6 @@
+import { AggregateRoot } from "@/core/entities/aggregate-root";
 import { UniqueEntityID } from "@/core/entities/unique-entity";
 import { Optional } from "@/core/types/optional";
-import { AggregateRoot } from "../../../../core/entities/aggregate-root";
 import { AnswerAttachmentList } from "./answer-attachment-list";
 
 export interface AnswerProps {
